@@ -11,7 +11,7 @@ Training data modeling techniques using MySQL
 
 ### Start MySQL from Docker container
 ```shell
-docker -d --name $MYSQL_CONTAINER_NAME -e MY_SQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD -v $MYSQL_VOLUME
+docker run -d --name $MYSQL_CONTAINER_NAME -e MY_SQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD -v $MYSQL_VOLUME
 ```
 
 ### Prepare CSV Files
