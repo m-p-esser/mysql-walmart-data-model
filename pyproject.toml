@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mysql-sample-database"
+version = "0.1.0"
+description = ""
+authors = ["Marc-Philipp Esser <m-esser@mail.de>"]
+readme = "README.md"
+packages = [{include = "mysql-walmart-data-model"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ydata-profiling = { version = "^4.6.0", python = ">3.10,<3.12" }
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
