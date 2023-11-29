@@ -2,9 +2,9 @@
 
 # MySQL Walmart Data Model
 
-> 🚧 Warning
+> 🚧 Info
 > 
-> This Project is Work in Progress and subject to change
+> This Project is currently on hold
 
 
 ## What is this Project about
